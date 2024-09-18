@@ -10,7 +10,8 @@
 6.	The steps are repeated till ‘$’ is reached.
 7.	To reach a variable, enter the variable to be searched and symbol table has been checked for corresponding variable, the variable along with its address is displayed as result.
 8.	Stop the program. 
-### PROGRAM
+# PROGRAM
+```
 #include<stdio.h>
 #include<conio.h> 
 #include<ctype.h> 
@@ -63,6 +64,7 @@ printf(“\n Symbol Found”); printf(“\n%c%s%d\n”,srch,”@address”,add[i
 if(flag==0)
 printf(“\nSymbol Not Found”); getch();
 }
+```
 # OUTPUT
 ![Screenshot 2024-09-18 111619](https://github.com/user-attachments/assets/51214a7a-bb85-4322-80f6-aa8218ec2c7a)
 
